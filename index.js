@@ -62,6 +62,9 @@ const PluginSikuliX = {
     type: 'func',
     josi: [['から'], ['を']],
     fn: function (screen, target, sys) {
+      if (!screen) {
+        screen = sys.__varslist[0]['java'].newInstanceSync('org.sikuli.script.Screen');
+      }
       return screen.findSync(target);
     }
   },
