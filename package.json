@@ -1,0 +1,19 @@
+{
+  "name": "nadesiko3-sikulix",
+  "version": "0.0.1",
+  "description": "nadesiko3-sikulix API bridge.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "nadesiko3": "^3.0.64",
+    "java": "^0.12.0"
+  },
+  "keywords": [
+    "nadesiko3",
+    "sikulix"
+  ],
+  "author": "m_k_szk",
+  "license": "MIT"
+}
