@@ -1,6 +1,6 @@
 {
   "name": "nadesiko3-sikulix",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "nadesiko3-sikulix API bridge.",
   "main": "index.js",
   "scripts": {
